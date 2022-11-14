@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('name')->nullable(true);
             $table->integer('rating')->nullable(true);
-            $table->integer('price')->nullable(true);
+            $table->string('price')->nullable(true);
             $table->string('capacity')->nullable(true);
             $table->string('type')->nullable(true);
             $table->string('interface')->nullable(true);
